@@ -58,6 +58,25 @@ Now blender setup is ready, but before we proceed with data export, I recommend 
 
 ## Unreal Engine:
 
+- Go to the Unreal Projects folder and select the project you want to install the plugin in.
+- Create new folder and rename it to **"Plugins"** if it doesn't exists.
+
+![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/project_location_folder_creation.png?raw=true)
+
+- Now open folder **"Assets Export"** that we created earlier and extract **"UE_Plugin_v1_532.zip"** file.
+
+![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/plugin_extract.png?raw=true)
+
+- Move inside extracted **"UE Plugin"** folder and copy **"UE_LocRotReset"** folder from it;
+
+![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/copy_plugin.png?raw=true)
+
+- Head back to your UE project folder and go inside **"Plugins"** folder we created before and paste copied **"UE_LocRotReset"** folder inside of it. 
+
+![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/paste_plugin.png?raw=true)
+
+- And now, after you did all these steps, installation is almost complete. You can Run your Unreal project through *.uproject file or Unreal Engine launcher.
+
 In order to make plugin work, make sure you enabled python dependancy in plugins section of your project.
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/9a78d457-585b-45df-b01a-3d68ac02f644)
