@@ -1,7 +1,7 @@
 # UE_LocRotAddon
 Blender addon and Unreal Engine pluing for exporting objects Location and Rotation data to UE and resetting objects Rotation and Location in the UE's viewport.
 
-**Before we start:** during this guide i will be using **"Assets Export"** folder as a "default" folder and path for the entire process of data extraction from Blender and actors location and rotation reset in Unreal Engine.
+**Before we start:** during this guide - we will be using **"Assets Export"** folder as a "default" folder and path for the entire process of data extraction from Blender and actors location and rotation reset in Unreal Engine.
 
 ## Installation:
 - Download **"UE_LocRot_Addon_v1_341.zip"** and **"UE_Plugin_v1_532.zip"** from [Releases](https://github.com/nineteenss/UE_LocRotAddon/releases) section.
@@ -35,13 +35,13 @@ Blender addon and Unreal Engine pluing for exporting objects Location and Rotati
 
 - Then locate installed addon in tools panel **(Press "N")** and find **"UE_LRE"**.
 
-![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/2d50465d-68e0-4eae-bd04-2119bdf3d6b7)
+![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/addon_ui.png?raw=true)
 
 - Here you can see three steps to follow:  
   - Step one - Export data from selected objects:
        - **"Invert Y,Z (Rotation)"** - Inverts rotation of selected objects in **"LocRotData.txt"** on export (I don't know why, but Unreal Engine uses inverted Y and Z rotation than Blender. I left that option "False" by default, so if you know how to avoid that difference in rotation, you can leave it unchecked).
        - **"Invert Y (Location)"** - Inverts location of selected objects in **"LocRotData.txt"** on export (It's the same as in rotation, Unreal Engine uses inverted Y rotation than Blender. I left that option "False" by default, so if you know how to avoid that difference in location, you can leave it unchecked).
-       - **"Export Data"** - Export **Location (X,Y,Z)** and **Rotation (X,Y,Z)** of your objects to data file called **"LocRotData.txt"** located in the **"UE_LocRotExport_Tools"** folder (since we use it as a default path and folder for this guide):
+       - **"Export Data"** - Export **Location (X,Y,Z)** and **Rotation (X,Y,Z)** of your objects to data file called **"LocRotData.txt"** located in the **"Assets Export"** folder (since we use it as a default path and folder for this guide):
   - Step two - Prepare objects to export from blender:    
        - **"Remove Name Dots"** - Since UE replaces dots **'.'** with underscores **'_'**, you can do that manually before export to FBX (this also helps to restore objects position in blender using **"Reset Objects"** button).
        - **"Apply Modifiers"** - In order to make proper object placements all modifiers should be applied, for example: Mirror, Subdivision, Bevel etc. It also checks if selected objects contain "Curves" and converts them into "Mesh".
