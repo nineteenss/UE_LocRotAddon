@@ -11,7 +11,7 @@ Blender addon and Unreal Engine pluing for exporting objects Location and Rotati
 
 - For convenience, you can place the downloaded files in the newly created folder:
 
-![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/fe8d665c-8e01-48ff-9d4b-2b4f013d7811)
+![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/folder_1.png?raw=true)
 
 - Add-on and Plug-in installation steps below.
 
