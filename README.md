@@ -58,7 +58,7 @@ Now blender setup is ready, but before we proceed with data export, I recommend 
 
 ## Unreal Engine:
 
-- Go to the Unreal Projects folder and select the project you want to install the plugin in.
+- Go to the Unreal Projects folder and select the project you want to install the plugin in;
 - Create new folder and rename it to **"Plugins"** if it doesn't exists.
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/project_location_folder_creation.png?raw=true)
@@ -75,8 +75,25 @@ Now blender setup is ready, but before we proceed with data export, I recommend 
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/paste_plugin.png?raw=true)
 
-- And now, after you did all these steps, installation is almost complete. You can Run your Unreal project through *.uproject file or Unreal Engine launcher.
+- And now, after you did all these steps, installation is almost complete. You can Run your Unreal project through *.uproject file or Unreal Engine launcher;
+- After you opened your project, go to **"Edit > Plugins"**
 
-In order to make plugin work, make sure you enabled python dependancy in plugins section of your project.
+![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/unreal_edit_plugins.png?raw=true)
 
-![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/9a78d457-585b-45df-b01a-3d68ac02f644)
+- You will see **"Plugins"** window.
+- **First** - you need to make sure to enable **"Python"** inside Unreal Engine.
+- **Second** - in the search field type in word **"Python"** and enable following dependacies (Could be already active by default in UE 5.3. If so, skip to the next part):
+
+![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/python_enable.png?raw=true)
+
+- Right after, erase word **"Python"** from the search bar and go to **"Other"** tab on the left, right under word **"Installed"**;
+- Find inside **"UE_LocRotReset"** and enable it by clicking onto the check-box and restart Unreal Engine project (If it's already active - skip that part and close **"Plugins"** window).
+
+![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/enable_plugin.png?raw=true)
+
+- Now you can see, that your editor toolbar have one more button with "LRR" signature on it;
+- By clicking on it you will get window opened:
+
+![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/toolbar_icon.png?raw=true)
+
+Now that means that we finished the complete installation of addon and plugin for data transfer.
