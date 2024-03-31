@@ -1,31 +1,33 @@
 # UE_LocRotAddon
 Blender addon and Unreal Engine pluing for exporting objects Location and Rotation data to UE and resetting objects Rotation and Location in the UE's viewport.
 
-Before we start: during this guide i will be using extracted folder as a "default" folder and path for the entire process of data extraction from Blender and actors location and rotation reset in Unreal Engine.
+**Before we start:** during this guide i will be using **"Assets Export"** folder as a "default" folder and path for the entire process of data extraction from Blender and actors location and rotation reset in Unreal Engine.
 
 ## Installation:
-- Download **"UE_LocRotExport_Tools.zip"** from latest [Releases](https://github.com/nineteenss/UE_LocRotAddon/releases) section and extract it anywhere on your hard drive, for example at your desktop.
+- Download **"UE_LocRot_Addon_v1.0_3.4.1.zip"** and **"UE_Plugin_v1.0_5.3.2.zip"** from [Releases](https://github.com/nineteenss/UE_LocRotAddon/releases) section.
+- Create an empty folder and rename it to your liking, for example **"Assets Export"**. We will use it later for export and import process. You can put this folder anywhere you like, so location doesn't matter.
 
-![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/7858ee54-abc5-4f5e-ba93-59ac3d77a642)
+![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/b61c0e78-bee6-474c-8c78-f3c6f9a29c51)
 
-- Extracted folder contains two zip files:
+- For convenience, you can place the downloaded files in the newly created folder:
 
-![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/98ef6e81-4d54-4db8-88fc-60d80d3a4248)
+![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/fe8d665c-8e01-48ff-9d4b-2b4f013d7811)
 
 - Add-on and Plug-in installation steps below.
 
 ## Blender:
 
 - Open Blender and go to **"Edit > Preferences > Add-ons"**;
-- Find **"Install"** button (top right corner) and locate **"UE_LocRotExport_Tools"** folder you extracted earlier;
+- Find **"Install"** button (top right corner) and locate **"Assets Export"** folder you created earlier;
 - Choose **"UE_LocRot_Addon_v1.0_3.4.1.zip"** from file explorer and press **"Install Add-on"**.
 
-![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/6950d9db-9b8a-429b-90ac-3b26bfe8507b)
+![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/blender_addon_setup.png?raw=true)
+
+![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/a48593ae-0ae8-48c5-8a6b-725260f8c3d9)
 
 - After installation complete, addon will appear in the list-view of your Add-ons tab;
 - Press arrow and click on the check-box near the name of the addon in order to activate addon;
-- After activation, go down to **"Preferences"** and find **"FILE PATH"**, here you must set any desired folder path you will use for data export.
-- _**For example you can setup "UE_LocRotExport_Tools" folder as a path (folder that we extracted earlier from the downloaded ZIP file).**_
+- After activation, go down to **"Preferences"** and find **"FILE PATH"**, here you must set any desired folder path you will use for data export (I will set **"Assets Export"**, that I created earlier).
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/8006e2b9-b218-4a50-82c6-4b391e71f959)
 
