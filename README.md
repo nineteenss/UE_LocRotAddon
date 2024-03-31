@@ -53,7 +53,7 @@ Blender addon and Unreal Engine pluing for exporting objects Location and Rotati
        - Of course, you can export objects using other file formats or methods of your choice. But i haven't tested it myself yet, so you can try and give your feedback to me.
   - **"Reset Objects"** - Resets default selected objects position from the **"LocRotData.txt"** we exported data to earlier (It uses data from "LocRotData.txt", so it won't work before you export data to file):
        - **"Replace '.' (dots) with '_' (underscore)"** - If you haven't replaced dots in the names of your objects inside Blender during mesh export process **(Step two)**, it will do it automatically on objects reset process. Set to **"True"** by default.
-       - 
+
 Now blender setup is ready, but before we proceed with data export, I recommend you to finish Unreal Engine plugin installation, so then we will be able to perform complete process of data export and import.
 
 ## Unreal Engine:
