@@ -33,7 +33,7 @@ Blender addon and Unreal Engine pluing for exporting objects Location and Rotati
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/blender_addon_setup_3.png?raw=true)
 
-- Then locate installed addon in tools panel **(Press "N")** and find **"UE_LRE"**.
+- You can locate installed addon in tools panel **(Press "N")** and find **"UE_LRE"**.
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/addon_ui.png?raw=true)
 
