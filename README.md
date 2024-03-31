@@ -7,7 +7,7 @@ Blender addon and Unreal Engine pluing for exporting objects Location and Rotati
 - Download **"UE_LocRot_Addon_v1_341.zip"** and **"UE_Plugin_v1_532.zip"** from [Releases](https://github.com/nineteenss/UE_LocRotAddon/releases) section.
 - Create an empty folder and rename it to your liking, for example **"Assets Export"**. We will use it later for export and import process. You can put this folder anywhere you like, so location doesn't matter.
 
-![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/b61c0e78-bee6-474c-8c78-f3c6f9a29c51)
+![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/folder_created.png?raw=true)
 
 - For convenience, you can place the downloaded files in the newly created folder:
 
@@ -23,17 +23,15 @@ Blender addon and Unreal Engine pluing for exporting objects Location and Rotati
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/blender_addon_setup.png?raw=true)
 
-![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/a48593ae-0ae8-48c5-8a6b-725260f8c3d9)
-
 - After installation complete, addon will appear in the list-view of your Add-ons tab;
 - Press arrow and click on the check-box near the name of the addon in order to activate addon;
 - After activation, go down to **"Preferences"** and find **"FILE PATH"**, here you must set any desired folder path you will use for data export (I will set **"Assets Export"**, that I created earlier).
 
-![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/8006e2b9-b218-4a50-82c6-4b391e71f959)
+![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/blender_addon_setup_1.png?raw=true)
 
 - Now, after installation is complete and addon was set up for work - save preferences and close the window.
 
-![image](https://github.com/nineteenss/UE_LocRotAddon/assets/26834864/70c042d6-ebe9-4698-9319-558900c6695b)
+![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/blender_addon_setup_3.png?raw=true)
 
 - Then locate installed addon in tools panel **(Press "N")** and find **"UE_LRE"**.
 
