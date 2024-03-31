@@ -5,7 +5,7 @@ bl_info = {
     "blender": (3, 4, 1),
     "description": "Export selected objects location and rotation info to file.",
     "warning": "",
-    "doc_url": "",
+    "doc_url": "https://github.com/nineteenss/UE_LocRotAddon",
     "category": "Generic",
     "location": "View3D"
 }
