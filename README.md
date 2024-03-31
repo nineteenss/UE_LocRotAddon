@@ -81,13 +81,13 @@ Now blender setup is ready, but before we proceed with data export, I recommend 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/unreal_edit_plugins.png?raw=true)
 
 - You will see **"Plugins"** window.
-- **First** - you need to make sure to enable **"Python"** inside Unreal Engine.
-- **Second** - in the search field type in word **"Python"** and enable following dependacies (Could be already active by default in UE 5.3. If so, skip to the next part):
+- You need to make sure to enable **"Python"** inside Unreal Engine.
+- To do that - in the search field type in word **"Python"** and enable following dependacies (Could be already active by default in UE 5.3. If so, skip to the next part):
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/python_enable.png?raw=true)
 
-- Right after, erase word **"Python"** from the search bar and go to **"Other"** tab on the left, right under word **"Installed"**;
-- Find inside **"UE_LocRotReset"** and enable it by clicking onto the check-box and restart Unreal Engine project (If it's already active - skip that part and close **"Plugins"** window).
+- Right after, erase word **"Python"** from the search bar and go to **"Other"** tab on the left, you can find it right under **"Installed"** header;
+- Find there **"UE_LocRotReset"** and enable it by clicking onto the check-box and restart Unreal Engine project (If it's already active - skip that part and close **"Plugins"** window).
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/enable_plugin.png?raw=true)
 
@@ -96,4 +96,7 @@ Now blender setup is ready, but before we proceed with data export, I recommend 
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/toolbar_icon.png?raw=true)
 
-Now that means that we finished the complete installation of addon and plugin for data transfer.
+**Now that means that we have finished the complete installation of addon and plugin process and we're ready for assets data transfer.**
+
+## Usage:
+
