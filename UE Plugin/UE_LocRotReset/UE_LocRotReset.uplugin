@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UE_LocRotReset",
+	"Description": "Resets exported assests Location and Rotation from Blender",
+	"Category": "Other",
+	"CreatedBy": "Sergey Smetannikov (nineteenss)",
+	"CreatedByURL": "https://www.artstation.com/nineteenss",
+	"DocsURL": "https://github.com/nineteenss/UE_LocRotAddon",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "UE_LocRotReset",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
