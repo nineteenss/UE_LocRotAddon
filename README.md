@@ -40,7 +40,7 @@ Before we start: during this guide i will be using extracted folder as a "defaul
 - Here you can see three steps to follow:  
   - Step one - Export data from selected objects:
        - **"Invert Y,Z (Rotation)"** - Inverts rotation of selected objects in **"LocRotData.txt"** on export (I don't know why, but Unreal Engine uses inverted Y and Z rotation than Blender. I left that option "False" by default, so if you know how to avoid that difference in rotation, you can leave it unchecked).
-       - **"Invert Y (Location)"** - Inverts location of selected objects in **"LocRotData.txt"** on export (It's the same as in rotation, Unreal Engine uses inverted Y rotation than Blender.I left that option "False" by default, so if you know how to avoid that difference in rotation, you can leave it unchecked).
+       - **"Invert Y (Location)"** - Inverts location of selected objects in **"LocRotData.txt"** on export (It's the same as in rotation, Unreal Engine uses inverted Y rotation than Blender. I left that option "False" by default, so if you know how to avoid that difference in location, you can leave it unchecked).
        - **"Export Data"** - Export **Location (X,Y,Z)** and **Rotation (X,Y,Z)** of your objects to data file called **"LocRotData.txt"** located in the **"UE_LocRotExport_Tools"** folder (since we use it as a default path and folder for this guide):
   - Step two - Prepare objects to export from blender:    
        - **"Remove Name Dots"** - Since UE replaces dots **'.'** with underscores **'_'**, you can do that manually before export to FBX (this also helps to restore objects position in blender using **"Reset Objects"** button).
@@ -50,7 +50,7 @@ Before we start: during this guide i will be using extracted folder as a "defaul
   - Step three - Export objects using FBX as a single file:
        - **"Export FBX"** - Opens standard "Export as FBX" Blender window.
        - Of course, you can export objects using other file formats or methods of your choice. But i haven't tested it myself yet, so you can try and give your feedback to me.
-  - **"Reset Objects"** - Resets default selected objects position from the **""LocRotData.txt""** we exported data to earlier (It uses data from "LocRotData.txt", so it won't work before you export data to file):
+  - **"Reset Objects"** - Resets default selected objects position from the **"LocRotData.txt"** we exported data to earlier (It uses data from "LocRotData.txt", so it won't work before you export data to file):
        - **"Replace '.' (dots) with '_' (underscore)"** - If you haven't replaced dots in the names of your objects inside Blender during mesh export process **(Step two)**, it will do it automatically on objects reset process. Set to **"True"** by default.
    
 
