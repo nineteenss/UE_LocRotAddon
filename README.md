@@ -86,7 +86,7 @@ Now blender setup is ready, but before we proceed with data export, I recommend 
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/python_enable.png?raw=true)
 
-- Right after, erase word **"Python"** from the search bar and go to **"Other"** tab on the left, you can find it right under **"Installed"** header;
+- Right after, clear the search bar and go to **"Other"** tab on the left (right under **"Installed"** header);
 - Find there **"UE_LocRotReset"** and enable it by clicking onto the check-box and restart Unreal Engine project (If it's already active - skip that part and close **"Plugins"** window).
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/enable_plugin.png?raw=true)
