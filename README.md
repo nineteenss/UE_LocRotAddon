@@ -76,7 +76,7 @@ Now blender setup is ready, but before we proceed with data export, I recommend 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/paste_plugin.png?raw=true)
 
 - And now, after you did all these steps, installation is almost complete. You can Run your Unreal project through *.uproject file or Unreal Engine launcher;
-- After you opened your project, go to **"Edit > Plugins"**
+- Then, go to **"Edit > Plugins"**
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/unreal_edit_plugins.png?raw=true)
 
