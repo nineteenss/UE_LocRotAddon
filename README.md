@@ -96,7 +96,7 @@ Now blender setup is ready, but before we proceed with data export, I recommend 
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/toolbar_icon.png?raw=true)
 
-**Now that means that we have finished the complete installation of addon and plugin process and we're ready for assets data transfer.**
+**It means that the installation of addon and plugin is complete and now we're ready for assets data transfer.**
 
 ## Usage:
 
