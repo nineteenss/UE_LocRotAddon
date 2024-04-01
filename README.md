@@ -3,7 +3,7 @@ Blender addon and Unreal Engine pluing for exporting objects Location and Rotati
 
 **Before we start:** during this guide - we will be using **"Assets Export"** folder as a "default" folder and path for the entire process of data extraction from Blender and actors location and rotation reset in Unreal Engine.
 
-## 1 Installation:
+## 1. Installation:
 - Download **"UE_LocRot_Addon_v1_341.zip"** and **"UE_Plugin_v1_532.zip"** from [Releases](https://github.com/nineteenss/UE_LocRotAddon/releases) section.
 - Create an empty folder and rename it to your liking, for example **"Assets Export"**. We will use it later for export and import process. You can put this folder anywhere you like, so location doesn't matter.
 
@@ -15,7 +15,7 @@ Blender addon and Unreal Engine pluing for exporting objects Location and Rotati
 
 - Add-on and Plug-in installation steps below.
 
-## 2 Blender:
+## 2. Blender:
 
 - Open Blender and go to **"Edit > Preferences > Add-ons"**;
 - Find **"Install"** button (top right corner) and locate **"Assets Export"** folder you created earlier;
@@ -56,7 +56,7 @@ Blender addon and Unreal Engine pluing for exporting objects Location and Rotati
 
 Now blender setup is ready, but before we proceed with data export, I recommend you to finish Unreal Engine plugin installation, so then we will be able to perform complete process of data export and import.
 
-## 3 Unreal Engine:
+## 3. Unreal Engine:
 
 - Go to the Unreal Projects folder and select the project you want to install the plugin in;
 - Create new folder and rename it to **"Plugins"** if it doesn't exists.
@@ -98,5 +98,5 @@ Now blender setup is ready, but before we proceed with data export, I recommend 
 
 **It means that the installation of addon and plugin is complete and now we're ready for assets data transfer.**
 
-## 4 Usage:
+## 4. Usage:
 
