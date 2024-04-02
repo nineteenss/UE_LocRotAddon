@@ -25,7 +25,7 @@ Blender addon and Unreal Engine pluing for exporting objects Location and Rotati
 
 - After installation complete, addon will appear in the list-view of your Add-ons tab;
 - Press arrow and click on the check-box near the name of the addon in order to activate addon;
-- After activation, go down to **"Preferences"** and find **"FILE PATH"**, here you must set any desired folder path you will use for data export (I will set **"Assets Export"**, that I created earlier).
+- After activation, go down to **"Preferences"** and find **"EXPORT PATH"**, here you must set any desired folder path you will use for data export (I will set **"Assets Export"**, that I created earlier).
 
 ![image](https://github.com/nineteenss/UE_LocRotAddon_README_Assets/blob/main/blender_addon_setup_1.png?raw=true)
 
