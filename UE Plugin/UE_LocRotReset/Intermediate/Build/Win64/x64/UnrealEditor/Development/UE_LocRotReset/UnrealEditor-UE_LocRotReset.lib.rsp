@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UE_LocRotReset.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\ntns\Documents\Unreal Projects\LocRotReset\Intermediate\Build\Win64\x64\LocRotResetEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj"
+"C:\Users\ntns\Documents\Unreal Projects\LocRotReset\Plugins\UE_LocRotReset\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE_LocRotReset\Module.UE_LocRotReset.cpp.obj"
+"C:\Users\ntns\Documents\Unreal Projects\LocRotReset\Plugins\UE_LocRotReset\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE_LocRotReset\Default.rc2.res"
+/OUT:"C:\Users\ntns\Documents\Unreal Projects\LocRotReset\Plugins\UE_LocRotReset\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE_LocRotReset\UnrealEditor-UE_LocRotReset.lib"

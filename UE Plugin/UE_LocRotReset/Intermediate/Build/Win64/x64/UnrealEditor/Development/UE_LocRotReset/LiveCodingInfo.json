@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UE_LocRotReset.cpp.obj": [
+			"UE_LocRotReset.cpp.obj",
+			"UE_LocRotResetCommands.cpp.obj",
+			"UE_LocRotResetStyle.cpp.obj"
+		]
+	}
+}
